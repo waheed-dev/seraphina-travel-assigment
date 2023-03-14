@@ -12,27 +12,8 @@
   </head>
   <body>
   <!-- navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">My Brand</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<div id="navbar"></div>
+
   <!-- navbar -->
   <!-- header -->
 <section class="bg-light py-5">
@@ -44,7 +25,7 @@
         <h2 class="display-4 mb-4 text-center text-light" style="font-size: 4rem;">Experience the Beauty<br>of New Zealand</h2>
         <p class="lead mb-5 text-center text-light" style="font-size: 1.5rem;">Book a tour with us and discover the magic of this stunning country.</p>
         <div class="d-flex justify-content-center">
-          <a href="https://www.newzealand.com/sg/" target="_blank" class="btn btn-primary btn-lg mx-4">Book a Tour</a>
+          <a href="https://www.newzealand.com/sg/" target="_blank" class="btn btn-primary btn-lg mx-4">Plan your trip</a>
           <a href="#facts" class="btn btn-outline-primary btn-lg">Learn more</a>
         </div>
       </div>
@@ -201,31 +182,7 @@
     </div>
   </div>
 </section>
-  <footer class="bg-dark text-light py-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <h4 class="text-uppercase mb-4">About Us</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lorem quis nisl ullamcorper lacinia. In dictum urna eget nisi consectetur venenatis.</p>
-      </div>
-      <div class="col-md-4 mb-4">
-        <h4 class="text-uppercase mb-4">Useful Links</h4>
-        <ul class="list-unstyled">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Tours</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div class="col-md-4 mb-4">
-        <h4 class="text-uppercase mb-4">Contact Us</h4>
-        <p>123 Main St<br> Auckland, New Zealand<br> <a href="tel:+123456789" class="text-light">+123 456 789</a><br> <a href="mailto:info@yourcompany.com" class="text-light">info@yourcompany.com</a></p>
-      </div>
-    </div>
-    <hr class="bg-light my-4">
-    <p class="text-center mb-0">© 2023 Your Company Name. All rights reserved.</p>
-  </div>
-</footer>
+<div id="footer"></div>
 
 
 <style>
@@ -243,9 +200,20 @@
     border-radius: 5px;
   }
 </style>
-
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script>
+  // Load the navbar
+  $(function(){
+    $("#navbar").load("navbar.html");
+  });
+
+  // Load the footer
+  $(function(){
+    $("#footer").load("footer.html");
+  });
+</script>
 
   </body>
 </html>
