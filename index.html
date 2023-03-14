@@ -35,6 +35,26 @@
 </nav>
   <!-- navbar -->
   <!-- header -->
+<section class="bg-light py-5">
+  <div class="container position-relative" style="height: 600px; background-image: url('https://images.unsplash.com/photo-1562107383-999fee2d5772?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80'); background-size: cover; background-position: center;">
+    <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
+
+    <div class="row justify-content-center align-items-center h-100">
+      <div class="col-lg-8" style="z-index: 5;">
+        <h2 class="display-4 mb-4 text-center text-light" style="font-size: 4rem;">Experience the Beauty<br>of New Zealand</h2>
+        <p class="lead mb-5 text-center text-light" style="font-size: 1.5rem;">Book a tour with us and discover the magic of this stunning country.</p>
+        <div class="d-flex justify-content-center">
+          <a href="https://www.newzealand.com/sg/" target="_blank" class="btn btn-primary btn-lg mx-4">Book a Tour</a>
+          <a href="#facts" class="btn btn-outline-primary btn-lg">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
   <div class="container mt-4">
   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -73,7 +93,7 @@
 
   <!-- header -->
 
- <div class="container my-5">
+ <div class="container my-5" id="facts">
      <h1 class="display-4 text-center my-5">Facts About New Zealand</h1>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     <div class="col">
@@ -151,18 +171,17 @@
         </ul>
       </div>
     </div>
-      <div class="row">
-      <div class="col-lg-6 px-4">
-        <h2 class="mb-4">Pounamu</h2>
-        <p class="lead mb-2">Pounamu is a type of greenstone that is found in New Zealand. It is considered a taonga (treasure) by the Maori people, and has great cultural and spiritual significance. Pounamu is often used to make jewelry and other decorative items, and is also used in traditional Maori carvings and artwork.</p>
-        <ul>
-          <li>Pounamu is also known as "New Zealand jade" or "greenstone".</li>
-          <li>It is a rare and precious material, and is highly valued by collectors and enthusiasts.</li>
-          <li>Pounamu is believed to have healing properties, and is often given as a gift to show love, respect, or gratitude.</li>
-        </ul>
-      </div>
-         <div class="col-lg-6">
+      <div class="row my-4">
+      <div class="col-lg-6">
         <img src="https://www.shipit.co.uk/blog/wp-content/uploads/Joyeria_maori_joya_life_4-1.jpg" class="img-fluid mb-4" alt="Maori Haka dance">
+      </div>
+      <div class="col-lg-6">
+        <h2 class="mb-4">European Influences</h2>
+        <ul >
+          <li> The influence of European settlers can be seen in New Zealand's architecture, cuisine, and fashion.</li>
+          <li>Christmas and Easter are widely celebrated holidays in New Zealand due to the country's strong Christian heritage.</li>
+          <li> Rugby, a sport with strong European origins, is hugely popular in New Zealand and is considered the national sport.</li>
+        </ul>
       </div>
     </div>
       <div class="row">
@@ -182,11 +201,38 @@
     </div>
   </div>
 </section>
+  <footer class="bg-dark text-light py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <h4 class="text-uppercase mb-4">About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod lorem quis nisl ullamcorper lacinia. In dictum urna eget nisi consectetur venenatis.</p>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h4 class="text-uppercase mb-4">Useful Links</h4>
+        <ul class="list-unstyled">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Tours</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-md-4 mb-4">
+        <h4 class="text-uppercase mb-4">Contact Us</h4>
+        <p>123 Main St<br> Auckland, New Zealand<br> <a href="tel:+123456789" class="text-light">+123 456 789</a><br> <a href="mailto:info@yourcompany.com" class="text-light">info@yourcompany.com</a></p>
+      </div>
+    </div>
+    <hr class="bg-light my-4">
+    <p class="text-center mb-0">© 2023 Your Company Name. All rights reserved.</p>
+  </div>
+</footer>
+
 
 <style>
   .carousel-item img {
     max-height: 600px;
   }
+
   .d-block {
   object-fit: cover;
   }
