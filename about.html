@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
@@ -14,8 +14,127 @@
   <!-- navbar -->
 <div id="navbar"></div>
   <!-- navbar -->
-<div>sd</div>
-
+  <header class="jumbotron jumbotron-fluid bg-light text-center">
+    <div class="container">
+      <h1 class="display-4">Designing a Microsite for Adventure Seekers with Bootstrap</h1>
+      <p class="lead">A case study on how our travel agency conceptualized and designed a microsite using Bootstrap to promote our New Zealand tour packages to adventure seekers aged 18-35.</p>
+    </div>
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-7 mx-auto">
+        <ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link" id="step1-tab" data-toggle="tab" href="#step1" role="tab" aria-controls="step1" aria-selected="true">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-balloon-heart" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="m8 2.42-.717-.737c-1.13-1.161-3.243-.777-4.01.72-.35.685-.451 1.707.236 3.062C4.16 6.753 5.52 8.32 8 10.042c2.479-1.723 3.839-3.29 4.491-4.577.687-1.355.587-2.377.236-3.061-.767-1.498-2.88-1.882-4.01-.721L8 2.42Zm-.49 8.5c-10.78-7.44-3-13.155.359-10.063.045.041.089.084.132.129.043-.045.087-.088.132-.129 3.36-3.092 11.137 2.624.357 10.063l.235.468a.25.25 0 1 1-.448.224l-.008-.017c.008.11.02.202.037.29.054.27.161.488.419 1.003.288.578.235 1.15.076 1.629-.157.469-.422.867-.588 1.115l-.004.007a.25.25 0 1 1-.416-.278c.168-.252.4-.6.533-1.003.133-.396.163-.824-.049-1.246l-.013-.028c-.24-.48-.38-.758-.448-1.102a3.177 3.177 0 0 1-.052-.45l-.04.08a.25.25 0 1 1-.447-.224l.235-.468ZM6.013 2.06c-.649-.18-1.483.083-1.85.798-.131.258-.245.689-.08 1.335.063.244.414.198.487-.043.21-.697.627-1.447 1.359-1.692.217-.073.304-.337.084-.398Z"/>
+              </svg>
+              <br>Empathize
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="step2-tab" data-toggle="tab" href="#step2" role="tab" aria-controls="step2" aria-selected="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg>
+              <br>Define
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="step3-tab" data-toggle="tab" href="#step3" role="tab" aria-controls="step3" aria-selected="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lightbulb" viewBox="0 0 16 16">
+                <path d="M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.632-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z"/>
+              </svg><br>Ideate
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="step4-tab" data-toggle="tab" href="#step4" role="tab" aria-controls="step4" aria-selected="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hammer" viewBox="0 0 16 16">
+                <path d="M9.972 2.508a.5.5 0 0 0-.16-.556l-.178-.129a5.009 5.009 0 0 0-2.076-.783C6.215.862 4.504 1.229 2.84 3.133H1.786a.5.5 0 0 0-.354.147L.146 4.567a.5.5 0 0 0 0 .706l2.571 2.579a.5.5 0 0 0 .708 0l1.286-1.29a.5.5 0 0 0 .146-.353V5.57l8.387 8.873A.5.5 0 0 0 14 14.5l1.5-1.5a.5.5 0 0 0 .017-.689l-9.129-8.63c.747-.456 1.772-.839 3.112-.839a.5.5 0 0 0 .472-.334z"/>
+              </svg><br>Prototype
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="step4-tab" data-toggle="tab" href="#step5" role="tab" aria-controls="step4" aria-selected="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
+                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
+                <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
+              </svg><br>Test
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="step4-tab" data-toggle="tab" href="#step6" role="tab" aria-controls="step4" aria-selected="false">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket-takeoff" viewBox="0 0 16 16">
+                <path d="M9.752 6.193c.599.6 1.73.437 2.528-.362.798-.799.96-1.932.362-2.531-.599-.6-1.73-.438-2.528.361-.798.8-.96 1.933-.362 2.532Z"/>
+                <path d="M15.811 3.312c-.363 1.534-1.334 3.626-3.64 6.218l-.24 2.408a2.56 2.56 0 0 1-.732 1.526L8.817 15.85a.51.51 0 0 1-.867-.434l.27-1.899c.04-.28-.013-.593-.131-.956a9.42 9.42 0 0 0-.249-.657l-.082-.202c-.815-.197-1.578-.662-2.191-1.277-.614-.615-1.079-1.379-1.275-2.195l-.203-.083a9.556 9.556 0 0 0-.655-.248c-.363-.119-.675-.172-.955-.132l-1.896.27A.51.51 0 0 1 .15 7.17l2.382-2.386c.41-.41.947-.67 1.524-.734h.006l2.4-.238C9.005 1.55 11.087.582 12.623.208c.89-.217 1.59-.232 2.08-.188.244.023.435.06.57.093.067.017.12.033.16.045.184.06.279.13.351.295l.029.073a3.475 3.475 0 0 1 .157.721c.055.485.051 1.178-.159 2.065Zm-4.828 7.475.04-.04-.107 1.081a1.536 1.536 0 0 1-.44.913l-1.298 1.3.054-.38c.072-.506-.034-.993-.172-1.418a8.548 8.548 0 0 0-.164-.45c.738-.065 1.462-.38 2.087-1.006ZM5.205 5c-.625.626-.94 1.351-1.004 2.09a8.497 8.497 0 0 0-.45-.164c-.424-.138-.91-.244-1.416-.172l-.38.054 1.3-1.3c.245-.246.566-.401.91-.44l1.08-.107-.04.039Zm9.406-3.961c-.38-.034-.967-.027-1.746.163-1.558.38-3.917 1.496-6.937 4.521-.62.62-.799 1.34-.687 2.051.107.676.483 1.362 1.048 1.928.564.565 1.25.941 1.924 1.049.71.112 1.429-.067 2.048-.688 3.079-3.083 4.192-5.444 4.556-6.987.183-.771.18-1.345.138-1.713a2.835 2.835 0 0 0-.045-.283 3.078 3.078 0 0 0-.3-.041Z"/>
+                <path d="M7.009 12.139a7.632 7.632 0 0 1-1.804-1.352A7.568 7.568 0 0 1 3.794 8.86c-1.102.992-1.965 5.054-1.839 5.18.125.126 3.936-.896 5.054-1.902Z"/>
+              </svg><br>Implement
+            </a>
+          </li>
+        </ul>
+        
+        
+        
+      </div>
+  
+        <div class="tab-pane  container" id="step1" role="tabpanel" aria-labelledby="step1-tab">
+          <h2>Empathize</h2>
+  <p>Design thinking is a problem-solving approach that emphasizes understanding the needs, wants, and pain points of users in order to create innovative solutions that meet their needs. Empathy is a key component of design thinking, as it allows designers to understand the users' perspectives and design solutions that truly meet their needs.</p>
+  <p>In the context of designing a travel-related micro site, empathy is crucial in order to understand the needs and wants of travelers and create a user-centric platform. Here are a few reasons why empathy played a key role in the design of our micro site:</p>
+  <ol>
+    <li>Understanding user needs</li>
+    <li>Creating a user-friendly interface</li>
+    <li>Addressing pain points</li>
+    <li>All of the  neccessary information is centralized</li>
+  </ol>
+  <p>By empathizing with travelers, we were able to create a user-centric platform that meets their needs and provides valuable information and resources for efficient and cost-effective travel planning.</p>
+        </div>
+        <div class="tab-pane  container " id="step2" role="tabpanel" aria-labelledby="step2-tab">
+          <h2>Define</h2>
+          <p>In this step, we sought to understand the needs and pain points of our target audience. We conducted market research to gain insights into travelers' preferences, habits, and expectations. For example, we reviewed online travel forums, customer feedback, and social media posts related to travel in New Zealand. Based on this research, we identified the key features and functionalities required to create a user-friendly and engaging microsite</p>
+    </div>
+        <div class="tab-pane  container " id="step3" role="tabpanel" aria-labelledby="step3-tab">
+          <h2>Ideate</h2>
+          
+          <p>Ideation was the next step, where we brainstormed potential solutions to address the user's pain points. We generated a range of ideas, including</p>
+          <ol>
+            <li>clear and simple navigation menu</li>
+            <li>prominent calls-to-action for booking activities</li>
+            <li> high-quality images using a Carousel to showcase the country's natural beauty</li>
+            <li>responsive design that works well on all devicesd</li>
+          </ol>
+        </div>
+        <div class="tab-pane  container " id="step4" role="tabpanel" aria-labelledby="step4-tab">
+          <h2>Prototype</h2>
+          <p> In this step, we created prototypes to test our ideas with real users. We used wireframes, sketches, and interactive mockups to create a visual representation of the microsite's design and functionality,these includes :</p>
+          <ol>
+            <li>we created several versions of the home page to test which layout and design elements were most effective at capturing users' attention and encouraging them to explore the site further. </li>
+            <li> We also tested the usability of the navigation menu and search function to ensure that they were easy to use and provided relevant results.</li>
+           
+          </ol>
+        </div>
+        <div class="tab-pane  container " id="step5" role="tabpanel" aria-labelledby="step4-tab">
+          <h2>Test</h2>
+          <p> In this step, we conducted usability testing to evaluate the effectiveness of our design. We asked users to perform specific tasks on the microsite and observed their behavior to identify areas where they struggled.</p>
+        </div>
+        <div class="tab-pane  container " id="step6" role="tabpanel" aria-labelledby="step4-tab">
+          <h2>Implement</h2>
+          <p>In this step, we took our refined design and developed a fully functional microsite. We used the insights gathered during the prototyping and testing phases to create a platform that is user-friendly, easy to navigate, and aesthetically pleasing. For example,</p>
+          <ol>
+            <li>we implemented a responsive design that works well on all devices, making it accessible to a wide range of users </li>
+            <li>  We also ensured that the microsite's content was up-to-date and accurate, so users could rely on it to plan their trip to New Zealand.</li>
+           
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+ 
+  
+  
+  
 <div id="footer"></div>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -31,6 +150,8 @@
   $(function(){
       $("#footer").load("footer.html");
   });
+  
+  
 </script>
 
   </body>
